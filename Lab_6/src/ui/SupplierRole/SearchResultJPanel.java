@@ -19,7 +19,7 @@ public class SearchResultJPanel extends javax.swing.JPanel {
         product = p;
         txtName.setText(p.getProdName());
         txtId.setText(String.valueOf(p.getModelNumber()));
-        txtPrice.setText(String.valueOf(p.getPrice()));
+        txtPrice.setText(String.valueOf((Double)p.getPrice()));
     }
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
